@@ -58,7 +58,6 @@ You'll need to replace with the appropriate keycode (find replace, such as)
 For errors like
 	./src/DeploymentController.cs(51,4): error CS0103: The name `AddNewState' does not exist in the current context
 
-	#######################
 Add static using clause to give access to other controller's functions (where needed)
 - i.e. Needed in DeploymentController, DiscoveryController, EndingGameController (controllers ...), UtilityFunctions, GameLogic
   (Don't add a "using" reference for the current class/file - a self reference makes no sense!)
@@ -70,7 +69,7 @@ using static DiscoveryController;
 using static EndingGameController;
 using static MenuController;
 using static HighScoreController;
-###############################
+
 
 For "Conversion" errors like
 	./src/DeploymentController.cs(182,8): error CS0103: The name `Conversion' does not exist in the current context
