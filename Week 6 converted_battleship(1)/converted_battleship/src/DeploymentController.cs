@@ -3,17 +3,9 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
-
-//Add static using clause to give access to other controller's functions (where needed)
-using static GameController;
-using static UtilityFunctions;
-using static GameResources;
-using static DiscoveryController;
-using static EndingGameController;
-using static MenuController;
-using static HighScoreController;
 
 /// <summary>
 /// The DeploymentController controls the players actions
@@ -55,7 +47,7 @@ static class DeploymentController
 	/// </remarks>
 	public static void HandleDeploymentInput()
 	{
-		if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
+		if (SwinGame.KeyTyped(KeyCode.VK_ESCAPE)) {
 			AddNewState(GameState.ViewingGameMenu);
 		}
 
@@ -66,7 +58,7 @@ static class DeploymentController
 			_currentDirection = Direction.LeftRight;
 		}
 
-		if (SwinGame.KeyTyped(KeyCode.vk_r)) {
+		if (SwinGame.KeyTyped(KeyCode.VK_R)) {
 			HumanPlayer.RandomizeDeployment();
 		}
 
