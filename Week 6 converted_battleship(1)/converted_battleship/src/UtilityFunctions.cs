@@ -3,8 +3,17 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
+using SwinGameSDK;
+
+//Add static using clause to give access to other controller's functions (where needed)
+using static GameController;
+using static GameResources;
+using static DeploymentController;
+using static DiscoveryController;
+using static EndingGameController;
+using static MenuController;
+using static HighScoreController;
 /// <summary>
 /// This includes a number of utility methods for
 /// drawing and interacting with the Mouse.
