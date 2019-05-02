@@ -70,6 +70,7 @@ public static class GameResources
         NewSound("Medium", "medium.wav");
         NewSound("Hard", "hard.wav");
 		NewSound("Insane", "insane.wav");
+		NewSound("Song","song.wav");
     }
 	
     /// <summary>
@@ -77,8 +78,8 @@ public static class GameResources
     /// </summary>
 	private static void LoadMusic()
 	{
-		NewMusic("Background", "mainMenuMusic.mp3");
-        Audio.SetMusicVolume((float) 0);
+		NewMusic("Background", "song.wav");
+        Audio.SetMusicVolume((float) 10);
         //Audio.SetMusicVolume((float)0.1);
 	}
 	

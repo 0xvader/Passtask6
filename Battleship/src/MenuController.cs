@@ -9,7 +9,6 @@ using SwinGameSDK;
 
 public static class MenuController
 {
-	
 	/// <summary>
 	/// The menu structure for the game.
 	/// </summary>
