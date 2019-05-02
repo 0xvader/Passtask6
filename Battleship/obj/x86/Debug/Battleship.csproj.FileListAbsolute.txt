@@ -1,0 +1,5 @@
+C:\Users\User\Downloads\Compressed\Battleship-master_2\Battleship-master\Battleship\bin\Debug\Battleship.exe
+C:\Users\User\Downloads\Compressed\Battleship-master_2\Battleship-master\Battleship\bin\Debug\Battleship.pdb
+C:\Users\User\Downloads\Compressed\Battleship-master_2\Battleship-master\Battleship\bin\Debug\SwinGame.dll
+C:\Users\User\Downloads\Compressed\Battleship-master_2\Battleship-master\Battleship\obj\x86\Debug\Battleship.exe
+C:\Users\User\Downloads\Compressed\Battleship-master_2\Battleship-master\Battleship\obj\x86\Debug\Battleship.pdb
