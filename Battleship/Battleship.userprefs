@@ -1,1 +1,9 @@
-﻿<Properties StartupConfiguration="{7EA89A3B-7549-4F5B-85D9-B7D3B0B2BD45}|Default" />
+﻿<Properties StartupConfiguration="{7EA89A3B-7549-4F5B-85D9-B7D3B0B2BD45}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.Battleship PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
