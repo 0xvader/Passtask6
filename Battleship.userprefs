@@ -4,10 +4,10 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Battleship\src\MenuController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Battleship\src\GameResources.cs">
     <Files>
-      <File FileName="Battleship\src\GameResources.cs" Line="113" Column="14" />
-      <File FileName="Battleship\src\MenuController.cs" Line="14" Column="16" />
+      <File FileName="Battleship\src\GameResources.cs" Line="397" Column="12" />
+      <File FileName="Battleship\src\MenuController.cs" Line="22" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Battleship PreferredExecutionTarget="MonoDevelop.Default" />
