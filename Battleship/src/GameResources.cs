@@ -19,7 +19,6 @@ public static class GameResources
 		NewFont("Menu", "ffaccess.ttf", 9);
 		NewFont("GameMenu", "ffaccess.ttf", 10);
 	}
-	
     /// <summary>
     /// LoadImages loads the images used in the game.
     /// </summary>
@@ -79,7 +78,7 @@ public static class GameResources
 	private static void LoadMusic()
 	{
 		NewMusic("Background", "song.wav");
-        Audio.SetMusicVolume((float) 10);
+        Audio.SetMusicVolume((float) 1);
         //Audio.SetMusicVolume((float)0.1);
 	}
 	
