@@ -19,6 +19,7 @@ public static class GameResources
 		NewFont("Menu", "ffaccess.ttf", 9);
 		NewFont("GameMenu", "ffaccess.ttf", 10);
 		NewFont("Scores", "ffaccess.ttf", 12);
+		NewFont ("ShipCount", "Game Played.otf", 18);
 	}
     /// <summary>
     /// LoadImages loads the images used in the game.

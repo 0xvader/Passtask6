@@ -12,7 +12,7 @@ using System.Collections.Generic;
 /// </remarks>
 public static class HighScoreController
 {
-	private const int NAME_WIDTH = 3;
+	private const int NAME_WIDTH = 6;
 	private const int SCORES_LEFT = 490;
 	
 	/// <summary>
@@ -216,9 +216,9 @@ public static class HighScoreController
 			
 			s.Name = SwinGame.TextReadAsASCII();
 			
-			if (s.Name.Length < 3)
+			if (s.Name.Length < 6)
 			{
-				s.Name = s.Name + new string(' ', 3 - s.Name.Length);
+				s.Name = s.Name + new string(' ', 6 - s.Name.Length);
 			}
 			
 			_Scores.RemoveAt(_Scores.Count - 1);

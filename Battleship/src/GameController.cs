@@ -21,6 +21,12 @@ public static class GameController
     /// </summary>
     ///<value>The current state</value>
     ///<returns>The current state</returns>
+	
+	public static int _count;
+		/// <summary>
+		/// Returns the current state of the game, indicating which screen is
+		/// currently being used
+
     public static GameState CurrentState
     {
         get
@@ -138,6 +144,7 @@ public static class GameController
         _human = new Player(_theGame);
 		_aiShips = 5;
 		_humanShips = 5;
+		_count = 5;
 
         // AddHandler _human.PlayerGrid.Changed, AddressOf GridChanged
         _ai.PlayerGrid.Changed += GridChanged;
@@ -230,6 +237,7 @@ public static class GameController
             case ResultOfAttack.Destroyed:
                 {
                     PlayHitSequence(result.Row, result.Column, isHuman);
+					_count--;
                     Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
 					if (isHuman)
 					{
@@ -242,6 +250,7 @@ public static class GameController
                     break;
                 }
 
+				
             case ResultOfAttack.GameOver:
                 {
                     PlayHitSequence(result.Row, result.Column, isHuman);
